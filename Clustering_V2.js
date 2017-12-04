@@ -4,7 +4,7 @@ var cnt = 0;
 function setup() {
   createCanvas(1900, 960);
   
-  clusterer = new Clusterer(4,500);
+  clusterer = new Clusterer(2,50);
   clusterer.process();
 }
 
